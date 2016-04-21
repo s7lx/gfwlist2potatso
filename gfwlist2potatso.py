@@ -116,7 +116,6 @@ def generate_potatso(domains):
                 proxy_name="Proxy"
             )
         )
-    proxy = list()
     potatso_conf_content = potatso_conf_content.replace('__RULE__',
             "\n".join(rule))
     return potatso_conf_content.encode('utf-8')
@@ -159,9 +158,7 @@ def main():
     potatso_conf_content = potatso_conf_content.decode('utf-8')
 
 
-
-    with open("potatso.conf", 'wb') as f:
-        f.write(potatso_conf_content.encode('utf-8'))
+    write_file("potatso.conf",potatso_conf_content.encode('utf-8'))
 
 
 if __name__ == '__main__':
