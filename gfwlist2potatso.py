@@ -107,7 +107,7 @@ def reduce_domains(domains):
 
 def generate_potatso(domains):
     # render the potatso.conf file
-    potatso_conf_content = get_data_from_file('resources/potatso.conf')
+    potatso_conf_content = get_data_from_file('resources/potatso.tpl')
     rule = list()
     rule_tpl = "  - DOMAIN-SUFFIX,{domainstr},{proxy_name}"
     for domain in domains:
