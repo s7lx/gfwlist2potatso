@@ -132,6 +132,15 @@ def find_fast_ip(ips):
     ip, rt = sorted(table, key=lambda item: item[1])[0]
     return ip
 
+def write_file(fn,ct):
+    ''' fn = file name
+        ct = content '''
+
+    fp=open(fn+"","w+")
+    fp.write(ct)
+    fp.close()
+    return
+
 def main():
     if os.path.isfile('gfwlist.txt') :
         with open("gfwlist.txt", 'rb') as f:
@@ -139,7 +148,7 @@ def main():
     else :
         print 'Downloading gfwlist from %s' % gfwlist_url
         content = urllib2.urlopen(gfwlist_url, timeout=10).read()
-
+        write_file("gfwlist.txt",content)
 
     content = decode_gfwlist(content)
     gfwlist = combine_lists(content)
