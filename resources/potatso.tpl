@@ -1,6 +1,14 @@
 ruleSets:
 - name: gfwlist_official
   rules: 
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,91.108.56.0/22,Proxy
+  - IP-CIDR,91.108.4.0/22,Proxy
+  - IP-CIDR,109.239.140.0/24,Proxy
+  - IP-CIDR,149.154.160.0/20,Proxy
   - DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
   - DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
   - DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
@@ -37,10 +45,7 @@ ruleSets:
   - DOMAIN-SUFFIX,zhihu.com,DIRECT
 
 
-  - IP-CIDR,91.108.56.0/22,Proxy
-  - IP-CIDR,91.108.4.0/22,Proxy
-  - IP-CIDR,109.239.140.0/24,Proxy
-  - IP-CIDR,149.154.160.0/20,Proxy
+
 
   - DOMAIN-MATCH,google,Proxy
   - DOMAIN-MATCH,facebook,Proxy
@@ -53,7 +58,4 @@ ruleSets:
 
 __RULE__
 
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
+
