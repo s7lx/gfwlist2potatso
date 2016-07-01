@@ -16,6 +16,18 @@ ruleSets:
   - DOMAIN-SUFFIX,phobos.apple.com,DIRECT
   - DOMAIN-SUFFIX,ls.apple.com,DIRECT
 
+  - DOMAIN-SUFFIX,icloud-analysis.com,REJECT
+  - DOMAIN-SUFFIX,sax.sina.cn,REJECT
+  - DOMAIN-SUFFIX,tanx.com,REJECT
+  - DOMAIN-SUFFIX,ads.genieessp.com,REJECT
+  - DOMAIN-SUFFIX,ad.unimhk.com,REJECT
+  - DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
+  - DOMAIN-SUFFIX,m.simaba.taobao.com,REJECT
+  - DOMAIN-SUFFIX,ads.yahoo.com,REJECT
+  - DOMAIN-SUFFIX,ib.adnxs.com,REJECT
+  - DOMAIN-SUFFIX,ads.rayjump.com,REJECT
+  - DOMAIN-KEYWORD,umeng.co,REJECT
+
   - DOMAIN-SUFFIX,126.net,DIRECT
   - DOMAIN-SUFFIX,163.com,DIRECT
   - DOMAIN-SUFFIX,alicdn.com,DIRECT
