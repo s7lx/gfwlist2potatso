@@ -9,6 +9,7 @@ ruleSets:
   - IP-CIDR,91.108.4.0/22,Proxy
   - IP-CIDR,109.239.140.0/24,Proxy
   - IP-CIDR,149.154.160.0/20,Proxy
+  - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
   - DOMAIN-SUFFIX,adcdownload.apple.com,DIRECT
   - DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
