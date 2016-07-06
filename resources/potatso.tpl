@@ -27,7 +27,7 @@ ruleSets:
   - DOMAIN-SUFFIX,ads.yahoo.com,REJECT
   - DOMAIN-SUFFIX,ib.adnxs.com,REJECT
   - DOMAIN-SUFFIX,ads.rayjump.com,REJECT
-  - DOMAIN-KEYWORD,umeng.co,REJECT
+  - DOMAIN-MATCH,umeng.co,REJECT
 
   - DOMAIN-SUFFIX,126.net,DIRECT
   - DOMAIN-SUFFIX,163.com,DIRECT
