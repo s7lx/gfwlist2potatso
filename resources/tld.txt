@@ -5484,6 +5484,7 @@ org.ug
 !nic.uk
 !nls.uk
 !parliament.uk
+org.uk
 us
 dni.us
 fed.us
