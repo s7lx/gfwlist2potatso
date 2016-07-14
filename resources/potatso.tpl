@@ -69,8 +69,6 @@ ruleSets:
   - DOMAIN-MATCH,instagram,Proxy
   - DOMAIN-MATCH,gmail,Proxy
   - DOMAIN-MATCH,blogspot,Proxy
-  - DOMAIN-SUFFIX,twimg.com,Proxy
-  - DOMAIN-SUFFIX,messenger.com,Proxy
   - DOMAIN-SUFFIX,m.me,Proxy
 
 __RULE__
