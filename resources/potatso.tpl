@@ -28,6 +28,7 @@ ruleSets:
   - DOMAIN-SUFFIX,ib.adnxs.com,REJECT
   - DOMAIN-SUFFIX,ads.rayjump.com,REJECT
   - DOMAIN-MATCH,umeng.co,REJECT
+  - DOMAIN-MATCH,umtrack.co,REJECT
 
   - DOMAIN-SUFFIX,126.net,DIRECT
   - DOMAIN-SUFFIX,163.com,DIRECT
@@ -69,6 +70,8 @@ ruleSets:
   - DOMAIN-MATCH,gmail,Proxy
   - DOMAIN-MATCH,blogspot,Proxy
   - DOMAIN-SUFFIX,twimg.com,Proxy
+  - DOMAIN-SUFFIX,messenger.com,Proxy
+  - DOMAIN-SUFFIX,m.me,Proxy
 
 __RULE__
 
