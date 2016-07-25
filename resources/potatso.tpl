@@ -59,15 +59,8 @@ ruleSets:
   - DOMAIN-SUFFIX,xunlei.com,DIRECT
   - DOMAIN-SUFFIX,zhihu.com,DIRECT
 
-
-
-
   - DOMAIN-MATCH,google,Proxy
   - DOMAIN-MATCH,facebook,Proxy
-  - DOMAIN-MATCH,youtube,Proxy
-  - DOMAIN-MATCH,twitter,Proxy
-  - DOMAIN-MATCH,instagram,Proxy
-  - DOMAIN-MATCH,gmail,Proxy
   - DOMAIN-MATCH,blogspot,Proxy
   - DOMAIN-SUFFIX,m.me,Proxy
 
