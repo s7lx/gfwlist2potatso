@@ -23,7 +23,7 @@ ref
 
 ---
 
-you can buy me a coffee if you like it and have `alipay` client
+you can buy me a **Pepsi** (not Coke cola)  if you like it and have `alipay` client
 
 ![alipay](http://gzlong7.tk/grvt_mirror/chart?cht=qr&chs=200x200&choe=UTF-8&chld=L|1&chl=https://qr.alipay.com/0594135950985595)
 
