@@ -1,5 +1,5 @@
 
-# Convert [GFWList](/gfwlist/gfwlist) to [Potatso](/shadowsocks/Potatso-iOS) conf file
+# Convert [GFWList](https://github.com/gfwlist/gfwlist) to [Potatso](https://github.com/shadowsocks/Potatso-iOS) conf file
 
 fork from clowwindy's [gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
 
