@@ -3,7 +3,7 @@
 
 fork from clowwindy's [gfwlist2pac](https://github.com/clowwindy/gfwlist2pac)
 
-![](http://gzlong7.tk/grvt_mirror/chart?cht=qr&chs=200x200&choe=UTF-8&chld=L|1&chl=http://gzlong7.tk/potatso/gfwlist2potatso/potatso.conf)
+![](http://gzlong7.tk/grvt_mirror/chart?cht=qr&chs=200x200&choe=UTF-8&chld=L|1&chl=http://gzlong7.tk/potatso/potatso.conf)
 
 Well, if you do not know how to run this script, scan QRcode upon to get Potatso Configuration by **Potatso**.
 
